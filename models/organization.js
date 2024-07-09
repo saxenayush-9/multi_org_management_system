@@ -1,7 +1,7 @@
 /*
  * @Author: Ayush Saxena
  * @Date: 2024-07-09
- * @Last Modified by: ayushsaxena994@dhwaniris.com
+ * @Last Modified by: ayushsaxena994@gmail.com
  * @Last Modified Date: 2024-07-09
  * Created a table named organization with the following fields:
  */
