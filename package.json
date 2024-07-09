@@ -2,10 +2,58 @@
   "name": "multi_org_management_system",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "staging": "env=staging nodemon server.js",
+    "dev": "env=development nodemon server.js",
+    "prod": "env=production nodemon server.js",
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": {
+    "name": "Ayush Saxena",
+    "email": "ayushsaxena994@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^9.0.0",
+    "express": "^4.16.2",
+    "express-joi-validation": "^5.0.0",
+    "express-rate-limit": "^5.3.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.2",
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "ip": "^1.1.8",
+    "jsonwebtoken": "^8.5.1",
+    "line-by-line": "^0.1.6",
+    "md5": "^2.3.0",
+    "mime": "^2.3.1",
+    "mime-types": "^2.1.22",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "node-gyp": "^3.6.2",
+    "node-uuid": "^1.4.8",
+    "nodemailer": "^6.6.1",
+    "otp-generator": "^4.0.1",
+    "path": "^0.12.7",
+    "path-posix": "^1.0.0",
+    "pg": "^8.7.3",
+    "phone": "^3.1.28",
+    "request": "^2.88.2",
+    "request-ip": "^3.3.0",
+    "rootpath": "^0.1.2",
+    "sanitize": "^2.1.2",
+    "sanitize-filename": "^1.6.3",
+    "sequelize": "^6.21.3",
+    "sequelize-redis-cache": "^2.0.1",
+    "urlencode": "^1.1.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
 }
